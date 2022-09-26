@@ -49,7 +49,16 @@ markdown_extensions:
       base_path: docs
   - attr_list #//added by me
   - md_in_html #//added by me
-  - pymdownx.keys #//added by me, brings keyboard keys into md
+  # added from https://squidfunk.github.io/mkdocs-material/reference/formatting/#configuration
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  #emoji support from https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg  
 
 plugins:
   - search
