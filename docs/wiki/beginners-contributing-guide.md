@@ -110,6 +110,17 @@ This Section will "pull" from the [upstream](https://github.com/selfhostedshow/w
 
 0. Type `git merge upstream/master` to bring your local branch in to sync with the [upstream](https://github.com/selfhostedshow/wiki) repository.
 
+
+### Cherry-Picking Changes
+I goofed up hard when trying to merge so I had to do some googling on how to merge a specific commit to a branch rather than the entire list of changes. I found a [good video](https://www.youtube.com/watch?v=wIY824wWpu4) and attempted to put it below as well.
+
+<video controls>
+      <source id="mp4" src="https://youtu.be/wIY824wWpu4“ type="video/mp4">
+</videos>
+
+++ctrl+alt+del++
+
+
 ## Recommended Reading/Watching
 * [GitHub WorkFlow Introduction](https://guides.github.com/introduction/flow/)
 * [GitHub Training & Guides](https://www.youtube.com/githubguides)

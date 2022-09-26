@@ -47,8 +47,9 @@ markdown_extensions:
   - footnotes
   - mdx_include:
       base_path: docs
-  - attr_list
-  - md_in_html
+  - attr_list //added by me
+  - md_in_html //added by me
+  - pymdownx.keys //added by me, brings keyboard keys into md
 
 plugins:
   - search
